@@ -1,13 +1,13 @@
-<app-login-modal></app-login-modal>
-
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
 
+
 <div class="title">
   <div class="container">
-    <div class="row" id="title">
-      <div class="headline-column">
-        <h1 class="display-1">Stock Jargon Glossary
+    <div class="row" id="top">
+      <div class="headline-column"> </div>
+      <div class="col-md-12">
+        <h1 class="display-1 text-center">Stock Jargon
           <br> </h1>
       </div>
     </div>
@@ -17,51 +17,52 @@
   <div class="container">
     <div class="row">
       <div class="headline-column">
-        <h2 class="">There's a lot of jargon that goes on in stocks--mastering the lingo can be difficult.&nbsp;
-          <br>This glossary will help with understanding common stock terms!
+        <h2 class="text-center verdana">There's a lot of jargon that goes on in stocks--mastering the lingo can be difficult.&nbsp;
+          <br>This guide will help with understanding
+          <i>common </i>stock terms!
           <br> </h2>
       </div>
     </div>
   </div>
 </div>
+<div class="navbar sticky" id="navbar_buttonTop">
+  <a class="btn btn-outline-primary d-inline-flex" (click)="onClickTop()">Top^</a>
+</div>
+<div class="btn-group border-primary btn-group-lg navbarMain mx-auto verdana" id="navbar_buttons">
+  <a class="btn btn-outline-primary" (click)="onClickA()">A</a>
+  <a class="btn btn-outline-primary" (click)="onClickB()">B</a>
+  <a class="btn btn-outline-primary" (click)="onClickC()">C</a>
+  <a class="btn btn-outline-primary" (click)="onClickD()">D</a>
+  <a class="btn btn-outline-primary" (click)="onClickE()">E</a>
+  <a class="btn btn-outline-primary" (click)="onClickF()">F</a>
+  <a class="btn btn-outline-primary" (click)="onClickG()">G</a>
+  <a class="btn btn-outline-primary" (click)="onClickH()">H</a>
+  <a class="btn btn-outline-primary" (click)="onClickI()">I</a>
+  <a class="btn btn-outline-primary" (click)="onClickJ()">J</a>
+  <a class="btn btn-outline-primary" (click)="onClickK()">K</a>
+  <a class="btn btn-outline-primary" (click)="onClickL()">L</a>
+  <a class="btn btn-outline-primary" (click)="onClickM()">M</a>
+  <a class="btn btn-outline-primary" (click)="onClickN()">N</a>
+  <a class="btn btn-outline-primary" (click)="onClickO()">O</a>
+  <a class="btn btn-outline-primary" (click)="onClickP()">P</a>
+  <a class="btn btn-outline-primary" (click)="onClickQ()">Q</a>
+  <a class="btn btn-outline-primary" (click)="onClickR()">R</a>
+  <a class="btn btn-outline-primary" (click)="onClickS()">S</a>
+  <a class="btn btn-outline-primary" (click)="onClickT()">T</a>
+  <a class="btn btn-outline-primary" (click)="onClickU()">U</a>
+  <a class="btn btn-outline-primary" (click)="onClickV()">V</a>
+  <a class="btn btn-outline-primary" (click)="onClickW()">W</a>
+  <a class="btn btn-outline-primary" (click)="onClickX()">X</a>
+  <a class="btn btn-outline-primary" (click)="onClickY()">Y</a>
+  <a class="btn btn-outline-primary" (click)="onClickZ()">Z</a>
+</div>
 <div class="container">
-  <div class="row stickyBar">
-    <div class="btn-group border border-primary btn-group-lg mx-auto bg-dark" id="glossary_buttons">
-      <a href="#title" class="btn btn-outline-primary" id="top_button">Top^</a>
-      <a href="#A" class="btn btn-outline-primary" id="A_button">A</a>
-      <a href="#B" class="btn btn-outline-primary" id="B_button">B</a>
-      <a href="#C" class="btn btn-outline-primary" id="C_button">C</a>
-      <a href="#D" class="btn btn-outline-primary" id="D_button">D</a>
-      <a href="#E" class="btn btn-outline-primary" id="E_button">E</a>
-      <a href="#F" class="btn btn-outline-primary" id="F_button">F</a>
-      <a href="#G" class="btn btn-outline-primary" id="G_button">G</a>
-      <a href="#H" class="btn btn-outline-primary" id="H_button">H</a>
-      <a href="#I" class="btn btn-outline-primary" id="I_button">I</a>
-      <a href="#J" class="btn btn-outline-primary" id="J_button">J</a>
-      <a href="#K" class="btn btn-outline-primary" id="K_button">K</a>
-      <a href="#L" class="btn btn-outline-primary" id="L_button">L</a>
-      <a href="#M" class="btn btn-outline-primary" id="M_button">M</a>
-      <a href="#N" class="btn btn-outline-primary" id="N_button">N</a>
-      <a href="#O" class="btn btn-outline-primary" id="O_button">O</a>
-      <a href="#P" class="btn btn-outline-primary" id="P_button">P</a>
-      <a href="#Q" class="btn btn-outline-primary" id="Q_button">Q</a>
-      <a href="#R" class="btn btn-outline-primary" id="R_button">R</a>
-      <a href="#S" class="btn btn-outline-primary" id="S_button">S</a>
-      <a href="#T" class="btn btn-outline-primary" id="T_button">T</a>
-      <a href="#U" class="btn btn-outline-primary" id="U_button">U</a>
-      <a href="#V" class="btn btn-outline-primary" id="V_button">V</a>
-      <a href="#W" class="btn btn-outline-primary" id="W_button">W</a>
-      <a href="#X" class="btn btn-outline-primary" id="X_button">X</a>
-      <a href="#Y" class="btn btn-outline-primary" id="Y_button">Y</a>
-      <a href="#Z" class="btn btn-outline-primary" id="Z_button">Z</a>
-    </div>
-  </div>
   <div class="row">
     <div class="col-md-12">
-      <a id="A">
+      <p class="lead py-2" id="A">
         <u>A</u>
-      </a>
-      <div class="blockquote">
+      </p>
+      <div class="blockquote" >
         <p class="mb-0">Agent</p>
         <div class="blockquote-footer">A brokerage firm is said to be an agent when it acts on behalf of the client in buying or purchasing of shares. At no point of time in the entire transaction the agent will own the shares. </div>
       </div>
@@ -83,6 +84,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="B">
@@ -140,9 +143,11 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
-      <p class="lead" id="C">
+      <p class="lead py-2" id="C">
         <u>C</u>
       </p>
       <div class="blockquote">
@@ -164,6 +169,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="D">
@@ -176,7 +183,7 @@
       </div>
       <div class="blockquote">
         <p class="mb-0">Debentures</p>
-        <div class="blockquote-footer">A type of debt instrument that is not secured by physical assets or collateral. Debentures are backed only by the general creditworthiness and reputation of the issuer.A debenture is an unsecured form of investment. </div>
+        <div class="blockquote-footer">A type of debt instrument that is not secured by physical assets or collateral. Debentures are backed only by the general creditworthiness and reputation of the issuer. A debenture is an unsecured form of investment. </div>
       </div>
       <div class="blockquote">
         <p class="mb-0">Defensive Stock</p>
@@ -200,6 +207,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="E">
@@ -225,6 +234,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="F">
@@ -252,6 +263,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="G">
@@ -270,13 +283,14 @@
       <div class="blockquote">
         <p class="mb-0">Gross Profit</p>
         <div class="blockquote-footer">The profit a company makes after deducting the costs associated with making and selling its products, or the costs associated with providing its services. Gross profit will appear on a company's income statement, and can be calculated with this
-          formula:&nbsp;
-          <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Gross profit = Revenue - Cost of Goods Sold&nbsp;
+          formula:
+          <br>&nbsp; &nbsp; Gross profit = Revenue - Cost of Goods Sold
           <br>Gross profit is also called sales profit and gross income.</div>
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="H">
@@ -296,6 +310,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="I">
@@ -322,6 +338,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="J">
@@ -334,6 +352,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="K">
@@ -344,10 +364,12 @@
           <br> </p>
         <div class="blockquote-footer">Examines the consistency of an equity's return over time. The data for the ratio is derived from a value added monthly index (VAMI), which tracks the progress of a $1,000 initial investment in the security being analyzed. K-ratio is calculated
           as: K-ratio examines the consistency of an equity's return over time. K-ratio is calculated as:
-          <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; K-Ratio = Slope of LogVAMI Regression Line * Square Root of the Number of Observations Per Year</div>
+          <br>&nbsp; &nbsp;K-Ratio = Slope of LogVAMI Regression Line * Square Root of the Number of Observations Per Year</div>
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="L">
@@ -370,6 +392,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="M">
@@ -403,6 +427,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="N">
@@ -419,6 +445,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="O">
@@ -447,6 +475,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="P">
@@ -477,6 +507,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="Q">
@@ -493,7 +525,7 @@
           <br> </p>
         <div class="blockquote-footer">Also known as the acid-test ratio. An indicator of a company’s short-term liquidity, and measures a company’s ability to meet its short-term obligations with its most liquid assets. Because we're only concerned with the most liquid assets, the
           ratio excludes inventories from current assets. Quick ratio is calculated as follows:
-          <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Quick ratio = (cash and equivalents + marketable securities + accounts receivable) / current liabilities</div>
+          <br>&nbsp; &nbsp;Quick ratio = (cash and equivalents + marketable securities + accounts receivable) / current liabilities</div>
       </div>
       <div class="blockquote">
         <p class="mb-0">Quiet Period
@@ -511,6 +543,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="R">
@@ -529,15 +563,16 @@
         <p class="mb-0">ROI (Return on Investment)
           <br> </p>
         <div class="blockquote-footer">Return on Investment (ROI) is a performance measure, used to evaluate the efficiency of an investment or compare the efficiency of a number of different investments. ROI measures the amount of return on an investment, relative to the investment’s
-          cost. To calculate ROI, the benefit (or return) of an investment is divided by the cost of the investment. The result is expressed as a percentage or a ratio. The return on investment formula:&nbsp;
-          <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ROI = (Gain from Investment - Cost of Investment)/Cost
-          of Investment&nbsp;
+          cost. To calculate ROI, the benefit (or return) of an investment is divided by the cost of the investment. The result is expressed as a percentage or a ratio. The return on investment formula:
+          <br>&nbsp; &nbsp;ROI = (Gain from Investment - Cost of Investment)/Cost of Investment&nbsp;
           <br>
           <br>In the above formula, "Gain from Investment” refers to the proceeds obtained from the sale of the investment of interest. Because ROI is measured as a percentage, it can be easily compared with returns from other investments, allowing one
           to measure a variety of types of investments against one another. </div>
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="S">
@@ -574,6 +609,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="T">
@@ -605,6 +642,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="U">
@@ -631,6 +670,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="V">
@@ -656,6 +697,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="W">
@@ -674,6 +717,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="X">
@@ -686,6 +731,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="Y">
@@ -698,6 +745,8 @@
       </div>
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <p class="lead py-2" id="Z">
@@ -714,4 +763,22 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+<script>
+  window.onscroll = myFunction()
+  {
+    stickyScroll()
+  };
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  function myFunction()
+  {
+    if (window.pageYOffset &gt;= sticky)
+    {
+      navbar.classList.add("sticky")
+    }
+    else
+    {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
